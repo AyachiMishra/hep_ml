@@ -32,7 +32,8 @@ dependencies = [
 
 [project.urls]
 Homepage = "https://github.com/arogozhnikov/hep_ml"
-
+[project.scripts]
+hep-ml = "hep_ml.cli:main"
 [project.optional-dependencies]
 test = [
     "pytest>8",  # clashes with notebook upgrades and nbval
