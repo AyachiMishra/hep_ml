@@ -1,5 +1,6 @@
 import argparse
 
+hep-ml reweight --source source.npy --target target.npy
 def main():
     parser = argparse.ArgumentParser(prog="hep-ml")
     subparsers = parser.add_subparsers(dest="command")
